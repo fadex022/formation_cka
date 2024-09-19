@@ -1,0 +1,6 @@
+env:
+  - name: ENVIRONMENT
+    valueFrom:
+      configMapKeyRef:
+        name: myconfig
+        key: env
